@@ -20,5 +20,5 @@ def search_ship():
 
     
 def test_search_ship(search_ship):
-    assert search_ship()=="Please type in 'ship' or 'noship'."
+    assert search_ship()!="Please type in 'ship' or 'noship'."
 
